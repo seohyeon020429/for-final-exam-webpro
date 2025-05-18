@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACCOUNT</title>
+    <link rel="stylesheet" href="login_make_account.css"> 
+    <link rel="stylesheet" href="background_page.css"> 
+  </head>
+  <body>
+    <div class="bg_contain">
+      <div class="bg_scroll_view">
+        <div class="top_column">
+          <img
+            src="https://storage.googleapis.com/tagjs-prod.appspot.com/v1/YtjqD7gPg4/gibc9txy_expires_30_days.png" 
+            class="top_image"
+          />
+          <span class="top_text" >
+            GBC
+          </span>
+          <div class="top_box">
+          </div>
+        </div>
+
+
+        <div class="main_column">
+          <span class="main_text">
+            계정 만들기
+          </span>
+
+          <div class="side_column">					
+            <span class="main_text_2" >
+              이름
+            </span>
+            <input type="text" placeholder="이름" class="input"/>
+                        
+            <span class="main_text_2" >
+              소속학교
+            </span>
+            <input type="text" placeholder="소속학교" class="input"/>               
+        
+            <span class="main_text_2" >
+              이메일
+            </span>
+            <input type="text" placeholder="학교 이메일 주소 ex) id@soongsil.ac.kr" class="input"/>
+                  
+            <span class="main_text_2" >
+              성별
+            </span>
+
+            <div class="row-view">
+              <input type="radio" id="male" name="gender" class="radio-hidden" />
+              <label for="male" class="button_sex">
+                <span class="button_text">남성</span>
+              </label>
+            
+              <input type="radio" id="female" name="gender" class="radio-hidden" />
+              <label for="female" class="button_sex">
+                <span class="button_text">여성</span>
+              </label>
+            </div>
+                    
+            <span class="main_text_2" >
+              소속학과
+            </span>
+            <input type="text" placeholder="ex) 글로벌미디어학부" class="input"/>
+          </div>
+        </div>
+        <!-- HTML: 버튼에 disabled 속성 추가 -->
+        <button id="nextBtn" class="keep_going_button" disabled>
+            <span class="button_text">계속</span>
+        </button>
+        <script src="login_make_account.js"></script>
+    
+      </div>
+    </div> 
+  </body>
+</html>
